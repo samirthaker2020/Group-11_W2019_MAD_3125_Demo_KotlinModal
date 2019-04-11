@@ -34,5 +34,8 @@ class MainActivity : AppCompatActivity() {
         ProductList.add(Product("1","Monitor","21-inch HD",150.0f) )
         ProductList.add(Product("2","Pendrive","32-GB SCANDISK",20.0f))
         ProductList.add(Product("3","HardDisk","WD_1TB_5400@RPM",120.0f))
+        ProductList.add(Product("4","Keyboard","DELL-Keyboard USB_3.0",40.0f))
+        ProductList.add(Product("5","IPhone 8","IPhone 8 Black",400.0f))
+        ProductList.add(Product("6","Samsung S10","Samsung S10_64GB",1200.0f))
     }
 }

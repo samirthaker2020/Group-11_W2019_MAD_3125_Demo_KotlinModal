@@ -18,6 +18,7 @@ class productDetails : AppCompatActivity() {
         pd_pid.text="Product ID::"+studobj.productid
         pd_pname.text="Product name::"+studobj.productname
         price.text="Product price::$ "+studobj.price.toString()
+        pd_desc.text="Description:"+studobj.description;
 
     }
 }
