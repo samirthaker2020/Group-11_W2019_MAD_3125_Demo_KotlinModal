@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         rv_productlist.layoutManager = LinearLayoutManager(this)
 
         // You can use GridLayoutManager if you want multiple columns. Enter the number of columns as a parameter.
-      //  rv_productlist.layoutManager = GridLayoutManager(this, 3)
+        rv_productlist.layoutManager = GridLayoutManager(this, 2)
 
         // Access the RecyclerView Adapter and load the data into it
         rv_productlist.adapter = Product_Adapter(ProductList,this)
