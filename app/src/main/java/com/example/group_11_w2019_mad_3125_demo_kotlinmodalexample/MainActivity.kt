@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
 
     fun getdata()
     {
-        ProductList.add(Product("1","Monitor","21-inch HD","monitor.png",150.0f) )
-        ProductList.add(Product("2","Pendrive","32-GB SCANDISK","pendrive.png",20.0f))
+        ProductList.add(Product("1","Monitor","21-inch HD",150.0f) )
+        ProductList.add(Product("2","Pendrive","32-GB SCANDISK",20.0f))
+        ProductList.add(Product("3","HardDisk","WD_1TB_5400@RPM",120.0f))
     }
 }

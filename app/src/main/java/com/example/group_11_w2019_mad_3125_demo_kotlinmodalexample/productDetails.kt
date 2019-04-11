@@ -15,7 +15,9 @@ class productDetails : AppCompatActivity() {
         setContentView(R.layout.activity_product_details)
         val i = intent
         val studobj = i.extras!!.getSerializable("pdetails") as Product
-        pd_pid.text=studobj.productid
-        pd_pname.text=studobj.productname
+        pd_pid.text="Product ID::"+studobj.productid
+        pd_pname.text="Product name::"+studobj.productname
+        price.text="Product price::"+studobj.price.toString()
+
     }
 }

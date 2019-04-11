@@ -25,7 +25,7 @@ class Product_Adapter(private val ProductList: List<Product>, private var mconte
     override fun onBindViewHolder(myViewholder: Product_Adapter.MyViewholder, i: Int) {
         val p = ProductList[i]
 
-        myViewholder.pid.text = "ProductList::" + p.productname!!
+        myViewholder.pname.text =  p.productname!!
 
         myViewholder.itemView.setOnClickListener()
         {
@@ -42,11 +42,11 @@ class Product_Adapter(private val ProductList: List<Product>, private var mconte
     }
 
     inner class MyViewholder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var pid: TextView
+        var pname: TextView
 
         init {
 
-            pid = itemView.findViewById<View>(R.id.pid) as TextView
+            pname = itemView.findViewById<View>(R.id.pname) as TextView
 
 
         }
