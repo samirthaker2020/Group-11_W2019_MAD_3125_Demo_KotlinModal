@@ -17,7 +17,7 @@ class productDetails : AppCompatActivity() {
         val studobj = i.extras!!.getSerializable("pdetails") as Product
         pd_pid.text="Product ID::"+studobj.productid
         pd_pname.text="Product name::"+studobj.productname
-        price.text="Product price::"+studobj.price.toString()
+        price.text="Product price::$ "+studobj.price.toString()
 
     }
 }
